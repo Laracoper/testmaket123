@@ -1,0 +1,134 @@
+@import url(reset.css);
+@import url(header.css);
+@import url(penguin-defense.css);
+@import url(do-you-know.css);
+@import url(btns.css);
+@import url(news.css);
+@import url(form-contact.css);
+@import url(contacts.css);
+@import url(ask-question.css);
+@import url(projects.css);
+
+body {
+    font-family: "Sofia Sans Condensed", sans-serif;
+    color: black;
+    font-size: 28px;
+    font-weight: 400;
+    background-color: #F4F7FE;
+}
+
+
+.wrap {
+    overflow: hidden;
+    min-height: 100%;
+
+    max-width: 1330px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+
+span {
+    font-weight: 600;
+}
+
+.text-flex {
+    font-family: "Inter", sans-serif;
+    display: flex;
+    margin: 0 0 40px 0;
+}
+
+.text {
+    flex: 0 0 50%;
+    padding: 20px;
+}
+
+.text p {
+    margin: 0 0 10px 0;
+    text-align: left;
+    text-indent: 40px;
+}
+
+.block-one {
+    position: relative;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title, .title-black {
+    font-size: 64px;
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+    text-align: center;
+    
+    letter-spacing: 5px;
+    padding: 0 10px;
+}
+
+.title-black {
+    color: black;
+}
+
+.title {
+    color: #ffffff;
+}
+
+.title-h2 {
+    text-align: center;
+    font-size: 56px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    background-color: #F4F7FE;
+}
+
+.text-bottom-h3 {
+    margin: 0 0 40px 0;
+}
+
+@media (max-width: 1060px) {
+    body {
+        font-size: 23px;
+    }
+}
+
+@media (max-width: 943px) {
+    body {
+        font-size: 19px;
+    }
+}
+
+@media (max-width: 851px) {
+    body {
+        font-size: 16px;
+    }
+    .title,.title-black {
+        font-size: 44px;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .title-h2 {
+      
+        font-size: 46px;
+        
+    }
+}
+
+@media (max-width: 610px) {
+    .title,.title-black {
+        font-size: 28px;
+    }
+}
+
+@media (max-width: 415px) {
+    .text-flex {
+        display: block;
+       
+    }
+
+    .text {
+        padding: 0;
+    }
+}

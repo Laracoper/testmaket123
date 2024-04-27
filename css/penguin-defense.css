@@ -1,0 +1,25 @@
+.penguin-defense {
+    margin: 0 0 50px 0;
+}
+.penguin-defense__container {
+    
+}
+.penguin-defense__title {
+    position: relative;
+    z-index: 2;
+    max-width: 600px;
+    
+}
+
+.penguin-defense__bg {
+    padding: 0 0 70% 0;
+}
+
+.penguin-defense__bg img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}

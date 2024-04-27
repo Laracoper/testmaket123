@@ -1,0 +1,130 @@
+.header {
+    width: 100%;
+    z-index: 50;
+    color: aliceblue;
+
+    transition: 0.1s ease;
+    -webkit-transition: 0.1s ease;
+    -moz-transition: 0.1s ease;
+    -ms-transition: 0.1s ease;
+    -o-transition: 0.1s ease;
+}
+
+.header__container {
+    max-width: 1330px;
+    margin: 0 auto;
+    padding: 0 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 80px;
+    position: relative;
+}
+
+.header__logo, .header__icon {
+    z-index: 5;
+    position: relative;
+    flex: 0 0 80px;
+}
+
+.header__logo img {
+    max-width: 100%;
+}
+
+
+.header__menu {}
+
+.menu {}
+
+
+.menu__body {}
+
+.menu__list {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.menu__list li {
+    margin: 0 30px 0 0;
+}
+
+.menu__list li:last-child {
+    margin: 0 0px 0 0;
+}
+
+.menu__link {
+    background-color: black;
+    color: white;
+    padding: 10px 25px;
+    text-wrap: nowrap;
+    transition: 0.2s linear;
+    -webkit-transition: 0.2s linear;
+    -moz-transition: 0.2s linear;
+    -ms-transition: 0.2s linear;
+    -o-transition: 0.2s linear;
+
+}
+
+.menu__link:hover {
+    background-color: rgb(74, 74, 74);
+}
+
+@media (max-width: 991.98px) {
+    .header__icon, .header__logo {
+        width: 60px;
+        height: 60px;
+        flex: 0 0 60px;
+    }
+    .menu__list li {
+        margin: 0 20px 0 0;
+    }
+
+    .menu__link {
+        background-color: black;
+        color: white;
+        padding: 7px 15px;
+        text-wrap: nowrap;
+        transition: 0.2s linear;
+        -webkit-transition: 0.2s linear;
+        -moz-transition: 0.2s linear;
+        -ms-transition: 0.2s linear;
+        -o-transition: 0.2s linear;
+    
+    }
+    
+}
+
+@media (max-width: 767.98px) {
+    .menu__list {
+        gap: 15px;
+    }
+    .header__icon {
+        display: none;
+    }
+
+    .header__logo {
+        width: 40px;
+        height: 40px;
+        flex: 0 0 40px;
+        margin: 0 5px 0 0;
+    }
+
+    .menu__list li {
+        margin: 0 10px 0 0;
+    }
+
+    .menu__link {
+        background-color: black;
+        color: white;
+        padding: 5px 10px;
+        text-wrap: nowrap;
+        transition: 0.2s linear;
+        -webkit-transition: 0.2s linear;
+        -moz-transition: 0.2s linear;
+        -ms-transition: 0.2s linear;
+        -o-transition: 0.2s linear;
+    
+    }
+
+}
